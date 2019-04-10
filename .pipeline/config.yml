@@ -1,0 +1,12 @@
+steps:
+  mtaBuild:
+    buildTarget: 'NEO'
+    mtaJarLocation: 'C:/tools/mta.jar'
+    applicationName: 'ui5'
+  neoDeploy:
+    deployMode: mta
+    neo:
+       credentialsId: 'neome'
+       account: 'i077837trial'
+       host: 'hanatrial.ondemand.com'
+    neoHome: 'C:/tools/neo/tools'
